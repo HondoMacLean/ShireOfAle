@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShireOfAle", "ShireOfAle\ShireOfAle.csproj", "{2A2FA016-4428-44BB-B310-7263C5B2F0BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShireOfAle.Tests", "ShireOfAle.Tests\ShireOfAle.Tests.csproj", "{73F3465F-5EC9-431F-BB79-62C4CD49C9E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A2FA016-4428-44BB-B310-7263C5B2F0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2FA016-4428-44BB-B310-7263C5B2F0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2FA016-4428-44BB-B310-7263C5B2F0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2FA016-4428-44BB-B310-7263C5B2F0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F3465F-5EC9-431F-BB79-62C4CD49C9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F3465F-5EC9-431F-BB79-62C4CD49C9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F3465F-5EC9-431F-BB79-62C4CD49C9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F3465F-5EC9-431F-BB79-62C4CD49C9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7C84122-94CF-46B3-8B68-733263E498BA}
+	EndGlobalSection
+EndGlobal
