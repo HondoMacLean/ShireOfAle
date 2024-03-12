@@ -30,7 +30,7 @@ jobs:
       run: nuget restore ShireOfAle.sln
     
     - name: Build solution
-      run: msbuild ShireOfAle.sln -t:rebuild /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
+      run: msbuild ShireOfAle.sln -t:rebuild /p:Configuration=Release /p:DeployOnBuild=true /t:WebPublish /p:WebPublishMethod=FileSystem /p:publishUrl=bin\app.publish /p:PackageAsSingleFile=false
       
     - name: Upload Artifact
       uses: actions/upload-artifact@v1.0.0
