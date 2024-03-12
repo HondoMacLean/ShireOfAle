@@ -36,6 +36,6 @@ jobs:
       uses: actions/upload-artifact@v1.0.0
       with:
         name: published_webapp
-        path: bin\app.publish
+        path: ShireOfAle\bin\app.publish
 
     
