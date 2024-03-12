@@ -31,3 +31,8 @@ jobs:
     
     - name: Build solution
       run: msbuild ShireOfAle.sln -t:rebuild -property:Configuration=Release
+      
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v2
+      with:
+        category: "/language:csharp"
