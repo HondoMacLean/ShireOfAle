@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShireOfAle", "ShireOfAle\Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShireOfAle.Tests", "ShireOfAle.Tests\ShireOfAle.Tests.csproj", "{73F3465F-5EC9-431F-BB79-62C4CD49C9E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE42925D-3499-46ED-9445-0B02842299B3}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\codeql.yml = .github\workflows\codeql.yml
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
